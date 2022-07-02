@@ -23,16 +23,16 @@ h2 {
   
 }
 .item1 {
-  background: #f7f7f7;<--! Cor da caixa-->
+  background: #f7f7f7;/* Cor da caixa */
   border: 1px solid #e7e7ee;
   display: grid;
   justify-content: center;
-  padding: 20px; <--! serve para separar conteudo da caixa-->
-  border-radius: 4px; <--! serve para arredondar a borda -->
+  padding: 20px; /* serve para separar conteudo da caixa*/
+  border-radius: 4px; /* serve para arredondar a borda */
   
 }
 .grid{
   display: grid;
-  grid-template-columns:1fr 1fr ; <--! Definir mais de uma coluna/Fr = unidade fracionada, melhor para utilizar em separação(melhor que 50% 50%)-->
-  gap: 20px;<--!Separar os conteudos-->
+  grid-template-columns:1fr 1fr ; /*Definir mais de uma coluna/Fr = unidade fracionada, melhor para utilizar em separação(melhor que 50% 50%)*/
+  gap: 20px;/*!Separar os conteudos*/
 }
