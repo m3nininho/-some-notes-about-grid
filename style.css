@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-top: 0px; <--! serve para tirar a margem de top do h2-->
+}
+.comprar{
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.item {
+  background: #f7f7f7;<--! Cor da caixa-->
+  border: 1px solid #e7e7ee;
+  display: grid;
+  padding: 20px; <--! serve para separar conteudo da caixa-->
+  border-radius: 4px; <--! serve para arredondar a borda-->
+  
+}
+.item1 {
+  background: #f7f7f7;<--! Cor da caixa-->
+  border: 1px solid #e7e7ee;
+  display: grid;
+  justify-content: center;
+  padding: 20px; <--! serve para separar conteudo da caixa-->
+  border-radius: 4px; <--! serve para arredondar a borda -->
+  
+}
+.grid{
+  display: grid;
+  grid-template-columns:1fr 1fr ; <--! Definir mais de uma coluna/Fr = unidade fracionada, melhor para utilizar em separação(melhor que 50% 50%)-->
+  gap: 20px;<--!Separar os conteudos-->
+}
